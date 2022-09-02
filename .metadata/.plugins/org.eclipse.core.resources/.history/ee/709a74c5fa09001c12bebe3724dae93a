@@ -1,0 +1,23 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Digite o primeiro número: ");
+		Double num1 = scanner.nextDouble();
+		System.out.print("\nDigite o segundo número: ");
+		Double num2 = scanner.nextDouble();
+		System.out.print("\nDigite o operador: ");
+		String operador = scanner.next();
+
+		Double resultado = operador.equals("+") ? num1 + num2 : 0.0;
+		resultado = operador.equals("-") ? num1 + num2 : resultado;
+		resultado = operador.equals("*") ? num1 + num2 : resultado;
+		resultado = operador.equals("/") ? num1 + num2 : resultado;
+		resultado = operador.equals("%") ? num1 + num2 : resultado;
+
+		System.out.printf("\nO resultado de %d %s %d = %d", num1, operador, num2, resultado);
+	}
+}

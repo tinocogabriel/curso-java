@@ -1,0 +1,13 @@
+package oo.composicao.desafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Item {
+	int quantidade;
+	List<Produto> produto = new ArrayList<>();; 
+	
+	Item(int quantidade){
+		this.quantidade = quantidade;
+	}
+}

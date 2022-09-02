@@ -1,0 +1,37 @@
+package colecoes;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Fila {
+	public static void main(String[] args) {
+		Queue<String> fila = new LinkedList()<>();
+		
+		fila.add("Ana");
+		/**
+		 *Existem filas com restrição de tamanho, por isso usamos o offer
+		 *que adiciona caso exista espaço na fila e nos retorna um boolean
+		 *informando se o valor foi adicionado ou não 
+		 */
+		fila.offer("Bia");
+		fila.add("Carlos");
+		fila.offer("Daniel");
+		fila.add("Jorge");
+		fila.offer("Guilherme");
+		
+		/**
+		 * A diferença do comportamento ocorre quando a lista está vazia
+		 * Peek e Element obtem o proximo elemento da fila (sem remover)
+		 */
+		System.out.println(fila.peek()); //Retorna false para lista vazia
+		System.out.println(fila.peek());
+		System.out.println(fila.element()); //Lança exceção caso esteja vazia
+		System.out.println(fila.element());
+		
+		/**
+		 * Pool chama o proximo elemento e remove o mesmo da fila 
+		 */
+		System.out.println(fila.poll());//se estiver vazio retorno false
+		System.out.println(fila.remove()); //se estiver vazio lança exceção
+	}
+}

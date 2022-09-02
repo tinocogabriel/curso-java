@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+/home/tinoco/Documents/curso-java/.metadata/.plugins/org.eclipse.jdt.core
+4074538864.index
+1662449506.index
+1948843179.index
+3427683918.index
+3189021885.index
+2580431289.index
+1683829097.index
+1099125620.index
+2036131587.index
+1955584085.index
+3206868349.index
+51006176.index
+3881211578.index
+4065985905.index
+2501883060.index
+375420744.index
+1221555177.index

@@ -1,0 +1,6 @@
+package generics;
+
+public class CaixaTeste {
+	Caixa<String> caixaA = new Caixa<>();
+	caixaA.
+}
